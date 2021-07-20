@@ -97,6 +97,9 @@ body{
     margin-bottom: -20px;
     padding: 2rem;
 }
+.footer-image{
+    width: 20rem;
+}
 .list-inline-item {
     padding: 10px;
     font-size: 28px;
