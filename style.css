@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lobster&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+ }
+.container nav{
+    background: #0b525b;
+    font-size: 20px;
+ }
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover
+  {
+	color: #000;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: #0b525b;
+	}
+	.navbar-nav a {
+		font-size: 20px;
+		font-weight: normal;
+	}
+}
+.w-100 {
+	height: 100vh;
+}
+.main-text{
+     color:#fff;
+}
+.main-text h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.main-text span, .main-text h2{
+    color: #029da0;
+}
+.skill, .about span{
+    color: #0b525b;
+}
+.about h1, .font,.skill,.contact,.footer h1{
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+}
+.skill h2{
+    font-family: 'Lobster', cursive;
+    font-weight:bold;
+}
+.about-image{ 
+    height: 20rem;
+    width: 20rem;
+ }
+.projects{
+    border: 1px solid #0b525b;
+    max-width: 50rem;
+}
+.button1{
+    background-color: #0b525b;
+    color:  white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.button1:hover, .button2:hover{
+    background-color: #093e46;
+    color: black;
+}
+.button2 {
+    color:  #029da0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #0b525b;
+    margin-bottom: 5px;
+}
+.footer{
+    background: #0b525b;
+    margin-bottom: -20px;
+    padding: 2rem;
+}
+.list-inline-item {
+    padding: 10px;
+    font-size: 28px;
+    color: black;
+}
+.list-inline-item .active {
+    text-decoration: none;
+    color: #000000;
+}
